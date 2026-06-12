@@ -1,0 +1,43 @@
+.tale-shell{
+    width:800px;
+    height:600px;
+    margin-top: 2.5%;
+    border: 2px solid black;
+}
+
+
+.tale-shell h3{
+    text-align: center;
+    font-size: 26px;
+    padding: 1.5%;
+}
+
+.tale-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:50%;
+}
+
+.link-text{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 32px;
+}
+
+.tale-area input{
+    width:80%;
+    height:60px;
+    text-align: center;
+}
+
+
+.tale-area input.correct{
+    pointer-events: none;
+    border: 2px solid green;
+}
+
+.tale-area input.guess{
+    border: 2px solid red;
+}

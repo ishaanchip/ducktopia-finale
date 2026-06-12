@@ -1,0 +1,15 @@
+
+
+.prize-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:60%;
+    margin-top: 5%;
+}
+
+.prize-area img{
+    width:200px;
+}

@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:90%;
+  margin-left: 5%;
+  margin-top: 1.5%;
+  min-height: 750px;
+  line-height: 1.5;
+  font-family: "Roboto Mono", monospace;
+}
+
+.ducktopia-title-screen{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width:325px;
+  height:500px;
+  text-align: center;
+}
+
+
+.ducktopia-title-screen img{
+  width:300px;
+  height:auto;
+}
+
+.game{
+  width:870px;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 5px;
+}
+
+.game-content{
+  height:405px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.phaser-shell{
+  width:650px;
+}
+
+.input-shell{
+  width: 650px;
+  height:393px;
+}
+
+.input-shell h3{
+  text-align: center;
+  font-size: 22px;
+  padding: 2.5%;
+}
+
+input{
+  font-size: 32px;
+  font-family: "Roboto Mono", monospace;
+}
+
+input.correct{
+  pointer-events: none;
+  background-color:  rgb(191, 246, 191);
+  border: 2px solid green;
+}
+
+input.guess{
+  background-color:  rgb(249, 173, 173);
+  border: 2px solid red;
+}
+
+.scene-supplementals{
+  width:225px;
+  height:370px;
+  background-color: rgba(255, 186, 79, 0.4);
+  padding: 1.5%;
+}
+
+.scene-supplementals h1{
+  font-size: 26px;
+}
+
+.scene-supplementals h3{
+  font-size: 18px;
+}
+
+.scene-supplementals p{
+  font-size: 12px;
+}
+
+.level-navigation{
+  width:900px;
+  height:140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.level-navigation button{
+  width:200px;
+  height:40px;
+  font-weight: 600;
+  background-color: white;
+  outline: none;
+  border: 1px solid black;
+}
+
+.level-navigation button:disabled{
+  color:gray;
+  background-color: rgb(239, 239, 239);
+  border: none;
+}
+.prev{
+  color:rgb(171, 48, 171);
+
+}
+
+.next{
+  color:rgb(36, 145, 255);
+}
+
+
+.size-warning{
+  display: none;
+}
+
+@media only screen and (max-width:1250px) {
+  .game-browser{
+    display: none;
+  }
+  .size-warning{
+    display: block;
+  }
+
+  
+}
+
+
+@media only screen and (max-height:700px) {
+  .game-browser{
+    display: none;
+  }
+  .size-warning{
+    display: block;
+  }
+
+  
+}

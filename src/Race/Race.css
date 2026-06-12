@@ -1,0 +1,35 @@
+
+.typing-terminal{
+    display: flex;
+    align-items: start;
+    width:870px;
+    height:120px;
+    margin-bottom: 2%;
+}
+
+
+.song-script{
+    width:47.5%;
+    height:100%;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.song-script{
+    font-size: 12px;
+    padding: 2%;
+}
+
+.typing-terminal textarea.song-input{
+    align-items: start;
+    height:100%;
+    width:50%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 2%;
+}
+
+textarea.wrong{
+    background-color: rgba(255, 0, 0, 0.4);
+}
